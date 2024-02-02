@@ -5,6 +5,18 @@ Humour has been identified as therapeutic or detrimental to one’s health and r
 
 This repository contains implementations and experiments related to humour style classification in the text modality. The project explores various feature engineering techniques and classification models to predict humour styles. The implemented models include Naive Bayes, Multinomial Logistic Regression (both from scratch and using PyTorch), Feedforward Neural Network (FNN), and a Transformer model based on BERT.
 
+## Dataset Details
+
+The dataset used for this project comprises jokes sourced from various websites, covering Neutral, affiliative, self-enhancing, self-deprecating, and aggressive humor styles. A total of 1269 jokes were collected, with each joke associated with a specific humor label. The labeling process involved different approaches:
+
+- **Labeling Based on Website Tags or Titles (1069 jokes):**
+  The majority of the jokes (1069) were labeled based on the website #tags or titles. This method leveraged existing categorization provided by the websites hosting the jokes.
+
+- **Labeling by Human Evaluators (200 jokes):**
+  For 200 jokes where explicit humor style identification was lacking, three PhD students were involved in the labeling process. Each student provided a label, and the final label for each joke was determined by a majority vote.
+
+This diverse dataset with explicit and implicit humor style labels was used for training and evaluating the humor style classification models.
+
 ## Features Explored
 - **Feature Engineering Techniques:**
   - Bag-of-ngrams
