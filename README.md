@@ -7,13 +7,10 @@ This repository contains implementations and experiments related to humour style
 
 ## Dataset Details
 
-The dataset used for this project comprises jokes sourced from various websites, covering Neutral, affiliative, self-enhancing, self-deprecating, and aggressive humor styles. A total of 1269 jokes were collected, with each joke associated with a specific humor label. The labeling process involved different approaches:
+The dataset used for this project comprises jokes sourced from various websites, covering Neutral, affiliative, self-enhancing, self-deprecating, and aggressive humor styles. A total of 1269 jokes were collected, with each joke associated with a specific humor label. The labeling process was done as follows:
 
-- **Labeling Based on Website Tags or Titles (1069 jokes):**
-  The majority of the jokes (1069) were labeled based on the website #tags or titles. This method leveraged existing categorization provided by the websites hosting the jokes.
-
-- **Labeling by Human Evaluators (200 jokes):**
-  For 200 jokes where explicit humor style identification was lacking, three PhD students were involved in the labeling process. Each student provided a label, and the final label for each joke was determined by a majority vote.
+- **Labeling Based on Website Tags or Titles:**
+  The jokes were labeled based on the website #tags or titles. This method leveraged existing categorization provided by the websites hosting the jokes.
 
 This diverse dataset with explicit and implicit humor style labels was used for training and evaluating the humor style classification models.
 
